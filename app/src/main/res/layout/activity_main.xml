@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/etProfileName"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/ivProfilePicture"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Username"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Email"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etEmail"
+        android:text="Email here ~ "
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Phone number"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:text="(xxx)-xxx-xxxx"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bAddTicket"
+        android:text="~ Add Ticket ~ "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bViewImage"
+        android:text="~~ View Images ~~"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bLogout"
+        android:text="- Logout -"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>
